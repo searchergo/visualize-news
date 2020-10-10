@@ -19,6 +19,6 @@ data = pd.read_csv(fname,
 full_embedding = np.array(list(data.vector.values))
 print(full_embedding.shape)
 
-# data[['title', 'published_at']].to_csv('data.tsv', sep='\t', index=False)
-data[['title']].to_csv('data.tsv', sep='\t', index=False, header=None)
+data[['title', 'published_at']].to_csv('data.tsv', sep='\t', index=False)
+# data[['title']].to_csv('data.tsv', sep='\t', index=False, header=None)
 np.savetxt('embeddings.tsv', full_embedding, '%.6f', delimiter='\t')
