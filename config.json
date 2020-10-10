@@ -1,0 +1,13 @@
+{
+  "embeddings": [
+    {
+      "tensorName": "News",
+      "tensorShape": [
+        1000,
+        100
+      ],
+      "tensorPath": "https://raw.githubusercontent.com/gbarbalinardo/visualize-news/main/embeddings.tsv",
+      "metadataPath": "https://raw.githubusercontent.com/gbarbalinardo/visualize-news/main/data.tsv"
+    }
+  ]
+}
